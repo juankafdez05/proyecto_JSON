@@ -1,0 +1,1110 @@
+{
+  "balon_de_oro": {
+    "ganadores": [
+      {
+        "año": 2024,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Rodri",
+          "pais": "España",
+          "posicion": "Mediocentro",
+          "carrera": {
+            "equipos": ["Villarreal", "Atlético de Madrid", "Manchester City"],
+            "estadisticas": {
+              "goles": 60,
+              "asistencias": 75
+            }
+          }
+        }
+      },
+      {
+        "año": 2023,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lionel Messi",
+          "pais": "Argentina",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Barcelona", "PSG", "Inter Miami"],
+            "estadisticas": {
+              "goles": 821,
+              "asistencias": 350
+            }
+          }
+        }
+      },
+      {
+        "año": 2022,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Karim Benzema",
+          "pais": "Francia",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Lyon", "Real Madrid"],
+            "estadisticas": {
+              "goles": 450,
+              "asistencias": 200
+            }
+          }
+        }
+      },
+      {
+        "año": 2021,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lionel Messi",
+          "pais": "Argentina",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Barcelona", "PSG", "Inter Miami"],
+            "estadisticas": {
+              "goles": 821,
+              "asistencias": 350
+            }
+          }
+        }
+      },
+      {
+        "año": 2020,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "No otorgado",
+          "pais": "N/A",
+          "posicion": "N/A",
+          "carrera": {
+            "equipos": [],
+            "estadisticas": {
+              "goles": 0,
+              "asistencias": 0
+            }
+          }
+        }
+      },
+      {
+        "año": 2019,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lionel Messi",
+          "pais": "Argentina",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Barcelona", "PSG", "Inter Miami"],
+            "estadisticas": {
+              "goles": 821,
+              "asistencias": 350
+            }
+          }
+        }
+      },
+      {
+        "año": 2018,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Luka Modric",
+          "pais": "Croacia",
+          "posicion": "Mediocentro",
+          "carrera": {
+            "equipos": ["Dinamo Zagreb", "Tottenham", "Real Madrid"],
+            "estadisticas": {
+              "goles": 110,
+              "asistencias": 180
+            }
+          }
+        }
+      },
+      {
+        "año": 2017,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Cristiano Ronaldo",
+          "pais": "Portugal",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Al Nassr"],
+            "estadisticas": {
+              "goles": 873,
+              "asistencias": 250
+            }
+          }
+        }
+      },
+      {
+        "año": 2016,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Cristiano Ronaldo",
+          "pais": "Portugal",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Sporting CP", "Manchester United", "Real Madrid"],
+            "estadisticas": {
+              "goles": 800,
+              "asistencias": 220
+            }
+          }
+        }
+      },
+      {
+        "año": 2015,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lionel Messi",
+          "pais": "Argentina",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Barcelona"],
+            "estadisticas": {
+              "goles": 750,
+              "asistencias": 300
+            }
+          }
+        }
+      },
+      {
+        "año": 2014,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Cristiano Ronaldo",
+          "pais": "Portugal",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Real Madrid"],
+            "estadisticas": {
+              "goles": 780,
+              "asistencias": 210
+            }
+          }
+        }
+      },
+      {
+        "año": 2013,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Cristiano Ronaldo",
+          "pais": "Portugal",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Real Madrid"],
+            "estadisticas": {
+              "goles": 760,
+              "asistencias": 200
+            }
+          }
+        }
+      },
+      {
+        "año": 2012,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lionel Messi",
+          "pais": "Argentina",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Barcelona"],
+            "estadisticas": {
+              "goles": 700,
+              "asistencias": 280
+            }
+          }
+        }
+      },
+      {
+        "año": 2011,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lionel Messi",
+          "pais": "Argentina",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Barcelona"],
+            "estadisticas": {
+              "goles": 680,
+              "asistencias": 270
+            }
+          }
+        }
+      },
+      {
+        "año": 2010,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lionel Messi",
+          "pais": "Argentina",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Barcelona"],
+            "estadisticas": {
+              "goles": 660,
+              "asistencias": 260
+            }
+          }
+        }
+      },
+      {
+        "año": 2009,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lionel Messi",
+          "pais": "Argentina",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Barcelona"],
+            "estadisticas": {
+              "goles": 640,
+              "asistencias": 250
+            }
+          }
+        }
+      },
+      {
+        "año": 2008,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Cristiano Ronaldo",
+          "pais": "Portugal",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Manchester United"],
+            "estadisticas": {
+              "goles": 620,
+              "asistencias": 230
+            }
+          }
+        }
+      },
+      {
+        "año": 2007,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Kaká",
+          "pais": "Brasil",
+          "posicion": "Mediapunta",
+          "carrera": {
+            "equipos": ["AC Milan", "Real Madrid"],
+            "estadisticas": {
+              "goles": 300,
+              "asistencias": 180
+            }
+          }
+        }
+      },
+      {
+        "año": 2006,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Fabio Cannavaro",
+          "pais": "Italia",
+          "posicion": "Defensa",
+          "carrera": {
+            "equipos": ["Parma", "Inter de Milán", "Real Madrid"],
+            "estadisticas": {
+              "goles": 50,
+              "asistencias": 40
+            }
+          }
+        }
+      },
+      {
+        "año": 2005,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Ronaldinho",
+          "pais": "Brasil",
+          "posicion": "Mediapunta",
+          "carrera": {
+            "equipos": ["Barcelona", "AC Milan"],
+            "estadisticas": {
+              "goles": 250,
+              "asistencias": 150
+            }
+          }
+        }
+      },
+      {
+        "año": 2004,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Andriy Shevchenko",
+          "pais": "Ucrania",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Dynamo Kyiv", "AC Milan"],
+            "estadisticas": {
+              "goles": 300,
+              "asistencias": 100
+            }
+          }
+        }
+      },
+      {
+        "año": 2003,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Pavel Nedvěd",
+          "pais": "República Checa",
+          "posicion": "Mediocampista",
+          "carrera": {
+            "equipos": ["Sparta Praga", "Lazio", "Juventus"],
+            "estadisticas": {
+              "goles": 200,
+              "asistencias": 120
+            }
+          }
+        }
+      },
+      {
+        "año": 2002,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Ronaldo",
+          "pais": "Brasil",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Cruzeiro", "Barcelona", "Inter de Milán", "Real Madrid"],
+            "estadisticas": {
+              "goles": 350,
+              "asistencias": 100
+            }
+          }
+        }
+      },
+      {
+        "año": 2001,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Michael Owen",
+          "pais": "Inglaterra",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Liverpool", "Real Madrid", "Newcastle"],
+            "estadisticas": {
+              "goles": 250,
+              "asistencias": 80
+            }
+          }
+        }
+      },
+      {
+        "año": 2000,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Luis Figo",
+          "pais": "Portugal",
+          "posicion": "Centrocampista",
+          "carrera": {
+            "equipos": ["Sporting CP", "Barcelona", "Real Madrid"],
+            "estadisticas": {
+              "goles": 200,
+              "asistencias": 150
+            }
+          }
+        }
+      },
+      {
+        "año": 1999,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Rivaldo",
+          "pais": "Brasil",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Barcelona", "AC Milan"],
+            "estadisticas": {
+              "goles": 300,
+              "asistencias": 120
+            }
+          }
+        }
+      },
+      {
+        "año": 1998,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Zinedine Zidane",
+          "pais": "Francia",
+          "posicion": "Centrocampista",
+          "carrera": {
+            "equipos": ["Bordeaux", "Juventus", "Real Madrid"],
+            "estadisticas": {
+              "goles": 150,
+              "asistencias": 100
+            }
+          }
+        }
+      },
+      {
+        "año": 1997,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Ronaldo",
+          "pais": "Brasil",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Cruzeiro", "PSV", "Barcelona", "Inter de Milán", "Real Madrid"],
+            "estadisticas": {
+              "goles": 330,
+              "asistencias": 90
+            }
+          }
+        }
+      },
+      {
+        "año": 1996,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Matthias Sammer",
+          "pais": "Alemania",
+          "posicion": "Centrocampista/Defensa",
+          "carrera": {
+            "equipos": ["Borussia Dortmund", "Valencia"],
+            "estadisticas": {
+              "goles": 80,
+              "asistencias": 50
+            }
+          }
+        }
+      },
+      {
+        "año": 1995,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "George Weah",
+          "pais": "Liberia",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["AC Milan", "Paris Saint-Germain"],
+            "estadisticas": {
+              "goles": 220,
+              "asistencias": 70
+            }
+          }
+        }
+      },
+      {
+        "año": 1994,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Hristo Stoichkov",
+          "pais": "Bulgaria",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["CSKA Sofia", "Barcelona"],
+            "estadisticas": {
+              "goles": 180,
+              "asistencias": 60
+            }
+          }
+        }
+      },
+      {
+        "año": 1993,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Roberto Baggio",
+          "pais": "Italia",
+          "posicion": "Mediapunta",
+          "carrera": {
+            "equipos": ["Fiorentina", "Juventus", "AC Milan"],
+            "estadisticas": {
+              "goles": 210,
+              "asistencias": 80
+            }
+          }
+        }
+      },
+      {
+        "año": 1992,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Marco Van Basten",
+          "pais": "Países Bajos",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Ajax", "AC Milan"],
+            "estadisticas": {
+              "goles": 230,
+              "asistencias": 90
+            }
+          }
+        }
+      },
+      {
+        "año": 1991,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Jean-Pierre Papin",
+          "pais": "Francia",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Marseille", "AC Milan"],
+            "estadisticas": {
+              "goles": 200,
+              "asistencias": 70
+            }
+          }
+        }
+      },
+      {
+        "año": 1990,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lothar Matthäus",
+          "pais": "Alemania",
+          "posicion": "Centrocampista/Defensa",
+          "carrera": {
+            "equipos": ["Bayern Munich", "Inter de Milán"],
+            "estadisticas": {
+              "goles": 220,
+              "asistencias": 100
+            }
+          }
+        }
+      },
+      {
+        "año": 1989,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Marco Van Basten",
+          "pais": "Países Bajos",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Ajax", "AC Milan"],
+            "estadisticas": {
+              "goles": 210,
+              "asistencias": 80
+            }
+          }
+        }
+      },
+      {
+        "año": 1988,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Marco Van Basten",
+          "pais": "Países Bajos",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Ajax", "AC Milan"],
+            "estadisticas": {
+              "goles": 205,
+              "asistencias": 75
+            }
+          }
+        }
+      },
+      {
+        "año": 1987,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Ruud Gullit",
+          "pais": "Países Bajos",
+          "posicion": "Centrocampista/Delantero",
+          "carrera": {
+            "equipos": ["Feyenoord", "AC Milan"],
+            "estadisticas": {
+              "goles": 180,
+              "asistencias": 70
+            }
+          }
+        }
+      },
+      {
+        "año": 1986,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Igor Belánov",
+          "pais": "Ucrania",
+          "posicion": "Centrocampista",
+          "carrera": {
+            "equipos": ["Dynamo Kyiv"],
+            "estadisticas": {
+              "goles": 90,
+              "asistencias": 60
+            }
+          }
+        }
+      },
+      {
+        "año": 1985,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Michel Platini",
+          "pais": "Francia",
+          "posicion": "Centrocampista",
+          "carrera": {
+            "equipos": ["Nancy", "Saint-Étienne", "Juventus"],
+            "estadisticas": {
+              "goles": 240,
+              "asistencias": 130
+            }
+          }
+        }
+      },
+      {
+        "año": 1984,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Michel Platini",
+          "pais": "Francia",
+          "posicion": "Centrocampista",
+          "carrera": {
+            "equipos": ["Saint-Étienne", "Juventus"],
+            "estadisticas": {
+              "goles": 235,
+              "asistencias": 125
+            }
+          }
+        }
+      },
+      {
+        "año": 1983,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Michel Platini",
+          "pais": "Francia",
+          "posicion": "Centrocampista",
+          "carrera": {
+            "equipos": ["Saint-Étienne", "Juventus"],
+            "estadisticas": {
+              "goles": 230,
+              "asistencias": 120
+            }
+          }
+        }
+      },
+      {
+        "año": 1982,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Paolo Rossi",
+          "pais": "Italia",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Perugia", "Milan"],
+            "estadisticas": {
+              "goles": 140,
+              "asistencias": 50
+            }
+          }
+        }
+      },
+      {
+        "año": 1981,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Karl-Heinz Rummenigge",
+          "pais": "Alemania",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Bayern Munich"],
+            "estadisticas": {
+              "goles": 210,
+              "asistencias": 95
+            }
+          }
+        }
+      },
+      {
+        "año": 1980,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Karl-Heinz Rummenigge",
+          "pais": "Alemania",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Bayern Munich"],
+            "estadisticas": {
+              "goles": 205,
+              "asistencias": 90
+            }
+          }
+        }
+      },
+      {
+        "año": 1979,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Kevin Keegan",
+          "pais": "Inglaterra",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Liverpool"],
+            "estadisticas": {
+              "goles": 190,
+              "asistencias": 85
+            }
+          }
+        }
+      },
+      {
+        "año": 1978,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Kevin Keegan",
+          "pais": "Inglaterra",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Liverpool"],
+            "estadisticas": {
+              "goles": 185,
+              "asistencias": 80
+            }
+          }
+        }
+      },
+      {
+        "año": 1977,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Allan Simonsen",
+          "pais": "Dinamarca",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Borussia Mönchengladbach"],
+            "estadisticas": {
+              "goles": 150,
+              "asistencias": 70
+            }
+          }
+        }
+      },
+      {
+        "año": 1976,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Franz Beckenbauer",
+          "pais": "Alemania",
+          "posicion": "Defensa",
+          "carrera": {
+            "equipos": ["Bayern Munich", "New York Cosmos"],
+            "estadisticas": {
+              "goles": 100,
+              "asistencias": 80
+            }
+          }
+        }
+      },
+      {
+        "año": 1975,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Oleg Blokhin",
+          "pais": "Ucrania",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Dynamo Kyiv"],
+            "estadisticas": {
+              "goles": 140,
+              "asistencias": 75
+            }
+          }
+        }
+      },
+      {
+        "año": 1974,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Johan Cruyff",
+          "pais": "Países Bajos",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Ajax", "Barcelona"],
+            "estadisticas": {
+              "goles": 160,
+              "asistencias": 100
+            }
+          }
+        }
+      },
+      {
+        "año": 1973,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Johan Cruyff",
+          "pais": "Países Bajos",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Ajax"],
+            "estadisticas": {
+              "goles": 155,
+              "asistencias": 95
+            }
+          }
+        }
+      },
+      {
+        "año": 1972,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Franz Beckenbauer",
+          "pais": "Alemania",
+          "posicion": "Defensa",
+          "carrera": {
+            "equipos": ["Bayern Munich"],
+            "estadisticas": {
+              "goles": 95,
+              "asistencias": 70
+            }
+          }
+        }
+      },
+      {
+        "año": 1971,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Johan Cruyff",
+          "pais": "Países Bajos",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Ajax"],
+            "estadisticas": {
+              "goles": 150,
+              "asistencias": 90
+            }
+          }
+        }
+      },
+      {
+        "año": 1970,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Gerd Müller",
+          "pais": "Alemania",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Bayern Munich"],
+            "estadisticas": {
+              "goles": 180,
+              "asistencias": 60
+            }
+          }
+        }
+      },
+      {
+        "año": 1969,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Gianni Rivera",
+          "pais": "Italia",
+          "posicion": "Centrocampista",
+          "carrera": {
+            "equipos": ["AC Milan"],
+            "estadisticas": {
+              "goles": 120,
+              "asistencias": 70
+            }
+          }
+        }
+      },
+      {
+        "año": 1968,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "George Best",
+          "pais": "Irlanda del Norte",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Manchester United"],
+            "estadisticas": {
+              "goles": 100,
+              "asistencias": 50
+            }
+          }
+        }
+      },
+      {
+        "año": 1967,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Flórián Albert",
+          "pais": "Hungría",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Ferencváros"],
+            "estadisticas": {
+              "goles": 85,
+              "asistencias": 60
+            }
+          }
+        }
+      },
+      {
+        "año": 1966,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Bobby Charlton",
+          "pais": "Inglaterra",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Manchester United"],
+            "estadisticas": {
+              "goles": 150,
+              "asistencias": 90
+            }
+          }
+        }
+      },
+      {
+        "año": 1965,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Eusébio",
+          "pais": "Portugal",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Benfica"],
+            "estadisticas": {
+              "goles": 200,
+              "asistencias": 80
+            }
+          }
+        }
+      },
+      {
+        "año": 1964,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Denis Law",
+          "pais": "Escocia",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Manchester United"],
+            "estadisticas": {
+              "goles": 130,
+              "asistencias": 70
+            }
+          }
+        }
+      },
+      {
+        "año": 1963,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Lev Yashin",
+          "pais": "Unión Soviética",
+          "posicion": "Portero",
+          "carrera": {
+            "equipos": ["Dynamo Moscow"],
+            "estadisticas": {
+              "goles": 0,
+              "asistencias": 0
+            }
+          }
+        }
+      },
+      {
+        "año": 1962,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Josef Masopust",
+          "pais": "Checoslovaquia",
+          "posicion": "Centrocampista",
+          "carrera": {
+            "equipos": ["Dukla Prague"],
+            "estadisticas": {
+              "goles": 90,
+              "asistencias": 60
+            }
+          }
+        }
+      },
+      {
+        "año": 1961,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Omar Sívori",
+          "pais": "Argentina/Italia",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Juventus", "Napoli"],
+            "estadisticas": {
+              "goles": 120,
+              "asistencias": 50
+            }
+          }
+        }
+      },
+      {
+        "año": 1960,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Luis Suárez Miramontes",
+          "pais": "España",
+          "posicion": "Centrocampista",
+          "carrera": {
+            "equipos": ["Barcelona", "Inter Milan"],
+            "estadisticas": {
+              "goles": 110,
+              "asistencias": 60
+            }
+          }
+        }
+      },
+      {
+        "año": 1959,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Alfredo Di Stéfano",
+          "pais": "Argentina/España",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["River Plate", "Real Madrid"],
+            "estadisticas": {
+              "goles": 300,
+              "asistencias": 150
+            }
+          }
+        }
+      },
+      {
+        "año": 1958,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Raymond Kopa",
+          "pais": "Francia",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["Reims", "Real Madrid"],
+            "estadisticas": {
+              "goles": 250,
+              "asistencias": 100
+            }
+          }
+        }
+      },
+      {
+        "año": 1957,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Alfredo Di Stéfano",
+          "pais": "Argentina/España",
+          "posicion": "Delantero",
+          "carrera": {
+            "equipos": ["River Plate", "Real Madrid"],
+            "estadisticas": {
+              "goles": 290,
+              "asistencias": 140
+            }
+          }
+        }
+      },
+      {
+        "año": 1956,
+        "tipo": "oficial",
+        "jugador": {
+          "nombre": "Stanley Matthews",
+          "pais": "Inglaterra",
+          "posicion": "Extremo",
+          "carrera": {
+            "equipos": ["Stoke City", "Blackpool"],
+            "estadisticas": {
+              "goles": 80,
+              "asistencias": 150
+            }
+          }
+        }
+      }
+    ]
+  }
+}
