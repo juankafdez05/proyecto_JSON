@@ -1,4 +1,3 @@
-
 import json
 
 
@@ -25,6 +24,33 @@ def MedioCentrosGanadores(doc):
             nombres_vistos.add(ganadores["jugador"]["nombre"])
 
     return medio
+
+def filtrarposición(doc):
+    posicion= []
+    posicion_buscada = input("Introduzca sobre que posición desea conocer los ganadores: ").strip()
+    grupos = {    
+        "Mediocentro": {"Mediocentro", "Centrocampista" , "Mediapunta" , "Mediocampista"},
+        "Defensa": {"Defensa"},
+        "Delantero": {"Delantero","Exremo"},
+        "Portero": {"Portero"}
+    }
+
+    posiciones_a_buscar = grupos.get(posicion_buscada, {posicion_buscada})
+
+    nombres_vistos = set()
+
+    for ganadores in doc["balon_de_oro"]["ganadores"]:
+
+        nombre= ganadores["jugador"]["nombre"]
+        pos_jugador= ganadores["jugador"]["posicion"]
+
+        if pos_jugador in posiciones_a_buscar and nombre not in nombres_vistos:
+           
+        
+            posicion.append(nombre)
+            nombres_vistos.add(nombre)
+    return posicion
+
     
 def filtrarjugador(doc):
     jugador_buscado = input("Introduzca el jugador que desas buscar información: ")
@@ -56,30 +82,41 @@ def filtrarjugador(doc):
 
     return jug
 
-with open("JSONproyecto") as fichero:
-    doc=json.load(fichero)
 
-#Ejercicio 1
+def top5(doc):
+    jugadores = {}  
 
-#print("¿Que año quieres consultar?")
+    for ganador in doc["balon_de_oro"]["ganadores"]:
+        nombre = ganador["jugador"]["nombre"]
+        año_actual = ganador["año"]
+        goles = ganador["jugador"]["carrera"]["estadisticas"]["goles"]
+        asistencias = ganador["jugador"]["carrera"]["estadisticas"]["asistencias"]
+        
+        if nombre not in jugadores or año_actual > jugadores[nombre]["año"]:
+            jugadores[nombre] = {
+                "año": año_actual,
+                "goles": goles,
+                "asistencias": asistencias,
+                "total": goles + asistencias
+            }
 
-#for gana in GanadoresBalonDeOro(doc):
-  #  if gana != 0 :
-   #     print("El ganador el fue: ", gana)
+    jugadores_ordenados = sorted(
+        jugadores.items(),
+        key=lambda x: x[1]["total"],
+        reverse=True
+    )[:5]
 
-#Ejercicio 2
+    generados = []
+    for nombre, stats in jugadores_ordenados:
+        generados.append(
+            f"Jugador: {nombre}\n"
+            f"Goles: {stats['goles']}\n"
+            f"Asistencias: {stats['asistencias']}\n"
+            f"Total generados: {stats['total']}\n"
+            "---------------------"
+        )
 
-#for medio in MedioCentrosGanadores(doc):
-#print("El Balon de Oro siendo mediocentro lo han ganado", len(MedioCentrosGanadores(doc)), "Estos son: ",)
-#print("Nombres:\n", " \n".join(MedioCentrosGanadores(doc)))
+    return generados
 
-#Ejercico 3
 
-resultados3 = filtrarjugador(doc)
 
-if resultados3:
-    print("\nEsta es la informacion disponible del jugador buscado:\n")
-    print("\n".join(resultados3))
-    print(f"\nTotal de veces ganado: {len(resultados3)}")
-else:
-    print("No se ha encontrado información para ese jugador")
