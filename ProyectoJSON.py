@@ -1,122 +1,79 @@
 import json
+import FuncionesJSON
 
+def main():
 
+    while True:
 
-def GanadoresBalonDeOro(doc):
-    ano_gan = int(input("Introduzca el año :" ))
-    gana = []
-    
-    for ganadores in doc["balon_de_oro"]["ganadores"]:
-        if ganadores["año"] == ano_gan:
-            gana.append(ganadores["jugador"]["nombre"])
-    
-    return gana
-    
-def MedioCentrosGanadores(doc):
-    medio= []
-    posiciones_mediocentros = {"Mediocentro", "Centrocampista" , "Mediapunta" , "Mediocampista"}
-    nombres_vistos = set()
-
-    for ganadores in doc["balon_de_oro"]["ganadores"]:
-        if ganadores["jugador"]["posicion"] in posiciones_mediocentros and ganadores["jugador"]["nombre"] not in nombres_vistos:
+        with open("JSONproyecto") as fichero:
             
-            medio.append(ganadores["jugador"]["nombre"])
-            nombres_vistos.add(ganadores["jugador"]["nombre"])
+            doc=json.load(fichero)
 
-    return medio
+        print("\n=== Balón De Oro ===\n")
+        print("1. Ganadores del Balón de Oro\n")
+        print("2. Mediocentros ganadores\n")
+        print("3. Filtrar por posición\n")
+        print("4. Filtrar por jugador\n")
+        print("5. Top 5 jugadores con más goles generados\n")
+        print("0. Salir\n")
 
-def filtrarposición(doc):
-    posicion= []
-    posicion_buscada = input("Introduzca sobre que posición desea conocer los ganadores: ").strip()
-    grupos = {    
-        "Mediocentro": {"Mediocentro", "Centrocampista" , "Mediapunta" , "Mediocampista"},
-        "Defensa": {"Defensa"},
-        "Delantero": {"Delantero","Exremo"},
-        "Portero": {"Portero"}
-    }
+        choice = input("Introduce tu opción (0-5): ")
 
-    posiciones_a_buscar = grupos.get(posicion_buscada, {posicion_buscada})
+        if choice == '1':
 
-    nombres_vistos = set()
+            print("¿Que año quieres consultar?")
+            
+            for gana in FuncionesJSON.GanadoresBalonDeOro(doc):
+              if gana != 0 :
+                print("El ganador fue: ", gana)
 
-    for ganadores in doc["balon_de_oro"]["ganadores"]:
+        elif choice == '2':
 
-        nombre= ganadores["jugador"]["nombre"]
-        pos_jugador= ganadores["jugador"]["posicion"]
+            resultado2 = FuncionesJSON.MedioCentrosGanadores(doc)
 
-        if pos_jugador in posiciones_a_buscar and nombre not in nombres_vistos:
+            if resultado2:
+                print("El Balon de Oro siendo mediocentro lo han ganado", len(resultado2), "Estos son: ",)
+                print("Nombres:\n", " \n".join(resultado2))
+            else:
+                print("No se han encontrado ganadores en esa posición.")
+
+        elif choice == '3':
+
+            resultado3= FuncionesJSON.filtrarposición(doc)
+        
+            if resultado3:
+                print("\nLos ganadores del balon de oro en esa posicion son:\n")
+                print ("\n".join(resultado3))
+            else:
+                print("No se han encontrado ganadores en esa posición")
+
+        elif choice == '4':
            
-        
-            posicion.append(nombre)
-            nombres_vistos.add(nombre)
-    return posicion
+           resultado4 = FuncionesJSON.filtrarjugador(doc)
+           if resultado4:
+                print("Esta es la informacion disponible del jugador buscado:\n")
+                print("\n".join(resultado4))
+                print(f"\nTotal de veces ganado: {len(resultado4)}")
+           else:
+              print("No se ha encontrado información para ese jugador")
 
+        elif choice == '5':
+            if FuncionesJSON.top5(doc):
+                print("Los 5 ganadores con más goles generados en su carrera son:\n")
+                print("\n".join(FuncionesJSON.top5(doc)))
+
+
+        elif choice == '0':
+
+            print("Saliendo del programa.")
+
+            break
+
+        else:
+
+            print("Opción no válida. Por favor, intenta de nuevo.")
+            continue
+
+if __name__ == "__main__":
     
-def filtrarjugador(doc):
-    jugador_buscado = input("Introduzca el jugador que desas buscar información: ")
-    jug= []
-    años_vistos= set()
-
-    for ganadores in doc["balon_de_oro"]["ganadores"]:
-        if ganadores["jugador"]["nombre"] ==jugador_buscado:
-            año= ganadores["año"]    
-
-            if año not in años_vistos:
-
-                equipos= ", ".join(ganadores["jugador"]["carrera"]["equipos"])
-
-                goles = ganadores["jugador"]["carrera"]["estadisticas"]["goles"]
-
-                asistencias = ganadores["jugador"]["carrera"]["estadisticas"]["asistencias"]
-               
-                info = (
-                   
-                   f"Año: {año}\n"
-                   f"Equipos: {equipos}\n"
-                   f"Goles: {goles}\n"
-                   f"Asistencias: {asistencias}\n"
-               )
-                
-                jug.append(info)
-                años_vistos.add(año)
-
-    return jug
-
-
-def top5(doc):
-    jugadores = {}  
-
-    for ganador in doc["balon_de_oro"]["ganadores"]:
-        nombre = ganador["jugador"]["nombre"]
-        año_actual = ganador["año"]
-        goles = ganador["jugador"]["carrera"]["estadisticas"]["goles"]
-        asistencias = ganador["jugador"]["carrera"]["estadisticas"]["asistencias"]
-        
-        if nombre not in jugadores or año_actual > jugadores[nombre]["año"]:
-            jugadores[nombre] = {
-                "año": año_actual,
-                "goles": goles,
-                "asistencias": asistencias,
-                "total": goles + asistencias
-            }
-
-    jugadores_ordenados = sorted(
-        jugadores.items(),
-        key=lambda x: x[1]["total"],
-        reverse=True
-    )[:5]
-
-    generados = []
-    for nombre, stats in jugadores_ordenados:
-        generados.append(
-            f"Jugador: {nombre}\n"
-            f"Goles: {stats['goles']}\n"
-            f"Asistencias: {stats['asistencias']}\n"
-            f"Total generados: {stats['total']}\n"
-            "---------------------"
-        )
-
-    return generados
-
-
-
+    main()
