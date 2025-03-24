@@ -77,8 +77,8 @@ def filtrarjugador(doc):
                    f"Asistencias: {asistencias}\n"
                )
                 
-            jug.append(info)
-            años_vistos.add(año)
+                jug.append(info)
+                años_vistos.add(año)
 
     return jug
 
